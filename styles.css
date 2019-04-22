@@ -1,0 +1,155 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background-image: url("https://raw.githubusercontent.com/rejincusi/mcu/master/images/bg.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	height: 730px;
+	margin: 0px;
+	scroll-behavior: smooth;
+}
+header {
+	position: fixed;
+    top: 0px;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(46, 46, 46, 0.51);
+    height: 75px;
+}
+header #main {
+	margin-bottom: 40px;
+	padding-top: 15px;
+}
+.menu-link {
+
+}
+ul {
+	list-style-type: none;
+ 	margin: 0;
+	padding: 0 75px 0 75px;
+	overflow: hidden;
+    float: right;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	transition: 0.3s ease;
+	font-size: 20px;
+	margin: 0px 10px;
+}
+li a:hover {
+	border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding: 15px; 
+}
+
+
+.avengers-container {
+	background-image: url(https://raw.githubusercontent.com/rejincusi/mcu/master/images/avengers2.png);
+    background-size: cover;
+    height: 625px;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: 75px 75px 0px 75px;
+    position: relative;
+}
+.logo a{
+	margin-left: 90px;
+    float: none;
+    color: #ffffff;
+    font-weight: bold;
+    display: block;
+    font-size: 2em;
+    top: 25px;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    position: absolute;
+    background-color: red;
+    width: 86px;
+    padding-left: 5px;
+}
+.banner-head {
+    position: absolute;
+    margin-top: 265px;
+    width: 100%;
+    background-color: rgba(4, 16, 43, 0.73);
+    height: 90px;
+    text-align: center;
+}
+.banner-head img {
+	width: 70px;
+	height: 70px;
+	padding-top: 200px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.banner-head img:hover {
+	height: 80px;
+	width: 80px;
+}
+.banner-title {
+	font-family: 'Bangers', cursive;
+	color: #fff;
+	letter-spacing: 10px;
+	text-align: center;
+}
+.banner-subtitle {
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 2px;
+	color: #fff;
+	text-align: center;
+	margin: -20px;
+}
+#about {
+	margin: 70px 75px 0px 75px;
+    text-align: center;
+    background-color: #fffbfb;
+    padding: 40px;
+    height: 40%;
+    color: #3f3f4a;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+.timeline-container {
+	margin: 70px 75px 0px 75px;
+    text-align: center;
+    padding: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: #faebd7;
+    background-color: #070708bf;
+}
+.timeline-image {
+	width: 20%;
+}
+.timeline-image img {
+	height: 250px;
+	width: 165px;
+	margin-bottom: 	20px;
+	margin-top: 20px;
+}
+.timeline-info {
+	text-align: left !important;
+	width: 80%;
+	padding-left: 50px;
+	color: #faebd7;
+}
+footer {
+	text-align: center;
+	background-color: white;
+	width: 100%;
+	height: 60px;
+}
+.copyright-info h3 {
+	padding-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+}
